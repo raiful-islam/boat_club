@@ -1,0 +1,144 @@
+#{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#navbar{
+    display: flex;
+    background-color: greenyellow;
+    padding: 10px 0;
+
+}
+.nav_logo{
+    width: 30%;
+    
+}
+.nav_logo img{
+    width: 17%;
+    margin-left: 40px;
+}
+.navmenu{
+    width: 67%;
+    display: flex;
+    justify-content: end;
+}
+.navmenu a{
+    padding: 10px ;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+.navmenu a:hover{
+    background-color: white;
+}
+
+}
+/* news part start */
+
+#news{
+    padding: 100px 0;
+    display: flex;
+}
+.news_image{
+    width: 40%;
+}
+.news_image img{
+    width: 100%;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    animation: 20s sld infinite;
+ }
+ #slider{
+    overflow: hidden;
+ }
+ #slider figure img{
+    width: 20%;
+    float: left;
+    height: 600px;
+ }
+ @keyframes sld {
+    0%{left: 0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+ }
+     
+.news_info{
+    width: 60%;
+   padding-left: 30px;
+}
+.news_info p{
+    font-size: 20px;
+}
+#activities{
+    display: flex;
+}
+.active1{
+    width: 23%;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+.active1 img{
+    width: 100%;
+}
+.active2{
+    width: 23%;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+.active2 img{
+    width: 100%;
+}
+.active3{
+    width: 23%;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+.active3 img{
+    width: 100%;
+}
+.active4{
+    width: 23%;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+.active4 img{
+    width: 100%;
+}
+#club_member{
+   
+    padding: 100px 0;
+    display: flex;
+}
+.club_member_image{
+    width: 40%;
+}
+.club_member_image img{
+    width: 100%;
+}
+.membership_document{
+    margin-left: 30px;
+    width: 60%;
+}
+.f1{
+    width: 30%;
+    padding: 5px;
+
+}
+.f2{
+    width: 30%;
+    padding: 5px;
+}
+#signup{
+    text-align: center;
+}
